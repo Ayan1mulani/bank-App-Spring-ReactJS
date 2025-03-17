@@ -25,9 +25,15 @@ Authentication: JWT (JSON Web Token)
 Frontend : React.js 
 
 # Screenshots of The application
-![Screenshot 2025-03-17 at 5 45 15 PM](https://github.com/user-attachments/assets/e571e89d-7d0c-4b05-8caf-701a58f4f241)
 
-![Screenshot 2025-03-17 at 5 45 40 PM](https://github.com/user-attachments/assets/878b0a63-05ee-4dd0-aa31-ce6cddef18e2)
+![Screenshot 2025-03-17 at 5 45 15 PM](https://github.com/user-attachments/assets/49ec2190-b3ee-42ae-af34-b48126c938bf)
+
+![Screenshot 2025-03-17 at 5 45 40 PM](https://github.com/user-attachments/assets/c5b124bd-d977-4a80-90d7-1184c9bd82bd)
+
+
+
+
+
 
 ![Screenshot 2025-03-17 at 6 21 30 PM](https://github.com/user-attachments/assets/ea34f624-be07-4925-a355-fdae293e98b3)
 
