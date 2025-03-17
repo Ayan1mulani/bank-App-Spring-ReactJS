@@ -1,0 +1,112 @@
+/* Receiver Box */
+
+.receiver {
+    margin-top: 16px;
+    align-items: center;
+    background-color: #1D1F27;
+    padding: 10px; /* Increase padding for better spacing */
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column; /* Change layout to vertical for extra-info */
+    gap: 10px; /* Adjust gap between child elements */
+    position: relative; /* Ensure positioning for child elements */
+    transition: all 0.3s ease; /* Smooth transition for toggle effects */
+    overflow: hidden; /* Prevent overflow when collapsed */
+}
+
+.receiver.expanded {
+    padding: 20px; /* Add more space when expanded */
+}
+
+.img3 {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+}
+
+.receiver-header {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Make header full width */
+}
+
+.receiver-header p{
+    transform: translateX(15px);
+}
+
+.txt4, .txt5 {
+    margin: 0; /* Remove margin for alignment */
+    color: white;
+    font-size: 14px;
+}
+
+.open {
+    color: rgb(202, 194, 194);
+    cursor: pointer; /* Indicate clickable */
+}
+
+.extra-info {
+    display: none; /* Hidden by default */
+    width: 100%; /* Match width of receiver */
+    background-color: #1D1F27; /* Match background */
+    color: white;
+    padding: 10px; /* Adjust padding for spacing */
+    border-top: 1px solid #2A2D34; /* Add a subtle divider */
+    border-radius: 0 0 13px 13px; /* Rounded corners at the bottom */
+}
+
+.receiver.expanded .extra-info {
+    display: block; /* Show extra-info when expanded */
+}
+
+.top-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.style3 button{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    justify-self: end;
+    align-items: center;
+}
+
+
+
+/* search bar */
+
+.search-bar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+}
+
+.search-bar input{
+    width: 90vw;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    padding-left: 10px;
+    background-color: #585d71;
+    border: none;
+}
+
+.search-bar input::placeholder {
+    color: #d3d3d3; /* Light gray color for placeholder text */
+    font-weight: normal; /* Adjust weight if needed */
+    font-size: 14px; /* Adjust size if needed */
+    font-style: italic; /* Add italic styling if desired */
+    opacity: 0.8; /* Control visibility of placeholder */
+}

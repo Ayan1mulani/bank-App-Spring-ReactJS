@@ -1,0 +1,290 @@
+body{
+    background-color: #0f1014;
+    padding: 15px;
+  
+ }
+ 
+ .top-1{
+     display: flex;
+     justify-content: space-between;
+     
+ }
+ .box1{
+ 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+     background-color:#272a31;
+     height: 40px;
+     width: 150px;
+     border-radius: 5px;
+ }
+ .box1 p {
+     color: white;
+ }
+ .img{
+     height: 50px;
+     width: 50px;
+     border-radius: 5px;
+     object-fit: cover;      
+ }
+ 
+ .top-icons{
+     align-items: center;
+     display: flex;
+     gap: 15px;
+     justify-content: space-between;
+ }
+ 
+ .balance-div1  {
+    position: relative;
+    right: 0px;
+     display: flex;
+     margin-top:40px;
+     height: 30px;
+     
+ }
+ .p1{
+    position: relative;
+     top: 15px;
+     color: #b4b7c1 ;
+     font-size: 13px;
+ }
+ .p2{
+     font-weight: bold;
+     font-size: 30px;
+    color: white;
+ }
+
+
+ .close-camera{
+    display: flex;
+    justify-self: end;
+    padding: 10px;
+    margin-top: 10px;
+ }
+ 
+
+ .Scanner{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #9799a1;
+ }
+ 
+ 
+ /* operations */
+ 
+ .operations-div{
+     margin-top: 200px;
+     display: flex;
+     justify-content: space-between;
+ 
+ }
+ 
+ .op{
+     padding: 1px;
+     height: 200px;
+     width: 48%;
+     border-radius: 20px;
+     background-color: #1D1F27;
+ }
+ 
+ .op-1{
+     padding: 10px;
+ 
+ }
+ 
+ .op-t-1{
+     color: rgb(221, 214, 214);
+     font-size: 13px;
+ }
+ .op-t-2{
+     transform: translateY(10px); /* Move down by 50px */
+     color: #b4b7c1;
+     font-size: 12px;
+ }
+ .op-t-3{
+     color:white;
+     font-size: 22px;
+ }
+ 
+ .due-box{
+     display: flex;
+     align-items: center;
+     border-radius: 7px;
+     justify-content: center;
+     background-color: #1B2D2D;
+     height: 30px;
+     font-size: 13px;
+     transform: translateY(10px); /* Move down by 50px */
+     color:greenyellow ;
+     text-decoration: underline dashed 1px white ;
+ }
+
+
+ 
+ 
+ .line{
+  display: flex;
+  transform: translateY(20px); /* Move down by 50px */
+ 
+ 
+ }
+ 
+ 
+ .line1{
+     height: 10px;
+     background-color: yellow;
+     border-radius: 5px 0px 0px 5px;
+     width: 70px;
+ 
+ }
+ .line2{
+     height: 10px;
+     background-color: #A957EB;
+     width: 40px;
+ }
+ .line3{
+     height: 10px;
+     background-color: #3FA9DB;
+     width: 20px;
+ }
+ .line4{
+     height: 10px;
+     background-color: #F3645A;
+     border-radius:0px 5px  5px  0px;
+     width: 10px;
+ }
+ .bg-1{
+     display: flex;
+     border-radius: 10px;
+     height: 50px;
+     justify-content: center;
+     width: 45px;
+     background-color: #33353E;
+ }
+ 
+ 
+ /* Quick transfer box */
+ 
+ 
+ .quick-div{
+     padding: 10px;
+     margin-top: 20px;
+     border-radius: 20px;
+     background-color: #1D1F27;
+ }
+ .flex{
+     display: flex;
+     justify-content: space-between;
+ }
+ .red{
+     color: #DA4A6D;
+     font-size: 13px;
+     cursor: pointer;
+ }
+ 
+ .Profile{
+     height: 50px;
+     border-radius: 10px;
+     object-fit: cover;   
+ }
+ .transfer-images{
+     display: flex;
+     gap: 15px;
+ }
+ .add{
+     background-color: white;
+     font-size: 20px;
+ }
+ 
+ 
+ /* Exchange rates div */
+ 
+ .exchange-rates-div{
+     padding: 10px;
+     margin-top: 20px;
+     border-radius: 20px;
+     background-color: #1D1F27;
+ }
+ .currency-flag {
+     width: 30px; /* Adjust the size as needed */
+     height: 20px;
+     margin-right: 10px;
+   }
+   
+   .rate-info {
+     display: flex;
+     align-items: center;
+   }
+   
+   .rate-item {
+     margin-bottom: 15px;
+   }
+ 
+   .txt-1{
+     color: white;
+   }
+ 
+ 
+ 
+   /* card */
+   .card-2 {
+    top: 120px;
+    background-color: #3F9CD8;
+    position: absolute;
+    right: 8px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px 0px 0px 10px;
+    z-index: 2; /* Ensure the parent div is above other elements */
+  }
+  
+  .card-div {
+    position: absolute;
+    right: 0px;
+    height: 100px;
+    width: 150px;
+    border-radius: 10px 0px 0px 10px;
+    z-index: 3; /* Ensure the image is on top */
+    pointer-events: auto; /* Ensure the image is clickable */
+  }
+  
+  .name {
+    position: absolute;
+    font-weight: bold;
+    font-size: 10px;
+    right: -10px;
+    top: 70px;
+    width: 150px;
+    font-family: cursive;
+    z-index: 3; /* Ensure the image is on top */
+    color: black;
+
+  }
+
+
+
+  .bg-2{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 40px;
+    border-radius: 7px;
+    background-color: #909ac1;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+
+
+.Card{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

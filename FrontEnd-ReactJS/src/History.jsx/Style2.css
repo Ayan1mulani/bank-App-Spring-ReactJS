@@ -1,0 +1,97 @@
+/* Page Container */
+.transaction-container {
+    background-color: #0f1014;
+    min-height: 200%;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .statements-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    background-color:#272a31;
+    cursor: pointer;
+  }
+  
+  /* Search Bar & Filter */
+  .search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .filter-btn {
+    border: none;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Transaction History */
+  .history {
+    margin-top: 10px;
+  }
+  
+  /* Transaction Card */
+  .transaction-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#272a31;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .transaction-card:hover {
+    background: #ececec;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  /* Transaction Details */
+  .transaction-details {
+    flex: 1;
+    margin-left: 15px;
+  }
+  
+  .received-from {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+  }

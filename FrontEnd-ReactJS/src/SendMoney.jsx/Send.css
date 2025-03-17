@@ -1,0 +1,132 @@
+/* Dark theme styles */
+.SendMony {
+  position: relative;
+  top: 0px;
+  background-color: #121212;
+  color: #fff;
+  padding: 20px;
+  height: 50vh;
+  margin-top: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.top-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bg-2 {
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.txt-1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.receiver-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1px;
+}
+
+.receiver-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.receiver-name {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.amount-display {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.amount-text {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.number-pad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.number-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.number-row button {
+  width: 70px;
+  height: 70px;
+  font-size: 26px;
+  margin: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.number-row button:hover {
+  background-color: #444;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.request-btn, .pay-btn {
+  width: 130px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  background-color: #1abc9c;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pay-btn {
+  background-color: #3498db;
+}
+
+.request-btn:hover {
+  background-color: #16a085;
+}
+
+.pay-btn:hover {
+  background-color: #2980b9;
+}

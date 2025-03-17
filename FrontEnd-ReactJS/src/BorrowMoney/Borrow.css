@@ -1,0 +1,74 @@
+.body2{
+    display: flex ;
+    justify-content: center;
+    
+}
+
+.rangediv{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Amount-txt{
+    color: white;
+    font-size: 13px;
+    transform: translatey(33px);
+}
+
+.Amount-txt2{
+    color: white;
+    font-size: 50px;
+
+}
+
+.range{
+    justify-content: center;
+    width: 85vw;
+}
+
+
+
+/* calcibox */
+
+.Box3{
+    margin-top: 50px;
+    background-color: #1D1F27;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.box-in-style{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(203, 199, 199);
+}
+
+
+
+/* continue btn */
+.Continue-btn {
+    position: fixed; 
+    bottom: 50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+
+.Continue-btn > button {
+    border-radius: 20px;
+    background-color: #015DC8;
+    height: 50px;
+    width: 90vw;
+   
+}
+
+.Continue-btn > button:active{
+    background-color: #4d9cf1;
+
+
+}
