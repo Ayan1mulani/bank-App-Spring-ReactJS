@@ -1,0 +1,327 @@
+2025-02-20 09:47:36 - Starting HiberApplication using Java 17.0.12 with PID 58658 (/Users/ayan/Documents/hiber/target/classes started by ayan in /Users/ayan/Documents/hiber)%PARSER_ERROR[ns]2025-02-20 09:47:36 - Running with Spring Boot v3.4.2, Spring v6.2.2%PARSER_ERROR[ns]2025-02-20 09:47:36 - No active profile set, falling back to 1 default profile: "default"%PARSER_ERROR[ns]2025-02-20 09:47:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.%PARSER_ERROR[ns]2025-02-20 09:47:38 - Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.%PARSER_ERROR[ns]2025-02-20 09:47:39 - Tomcat initialized with port 8080 (http)%PARSER_ERROR[ns]2025-02-20 09:47:39 - Starting service [Tomcat]%PARSER_ERROR[ns]2025-02-20 09:47:39 - Starting Servlet engine: [Apache Tomcat/10.1.34]%PARSER_ERROR[ns]2025-02-20 09:47:39 - Initializing Spring embedded WebApplicationContext%PARSER_ERROR[ns]2025-02-20 09:47:39 - Root WebApplicationContext: initialization completed in 2710 ms%PARSER_ERROR[ns]2025-02-20 09:47:40 - HHH000204: Processing PersistenceUnitInfo [name: default]%PARSER_ERROR[ns]2025-02-20 09:47:40 - HHH000412: Hibernate ORM core version 6.6.5.Final%PARSER_ERROR[ns]2025-02-20 09:47:40 - HHH000026: Second-level cache disabled%PARSER_ERROR[ns]2025-02-20 09:47:40 - No LoadTimeWeaver setup: ignoring JPA class transformer%PARSER_ERROR[ns]2025-02-20 09:47:40 - HikariPool-1 - Starting...%PARSER_ERROR[ns]2025-02-20 09:47:40 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/blogdb user=ADMIN%PARSER_ERROR[ns]2025-02-20 09:47:40 - HikariPool-1 - Start completed.%PARSER_ERROR[ns]2025-02-20 09:47:40 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)%PARSER_ERROR[ns]2025-02-20 09:47:40 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown%PARSER_ERROR[ns]2025-02-20 09:47:41 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)%PARSER_ERROR[ns]2025-02-20 09:47:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 09:47:43 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning%PARSER_ERROR[ns]2025-02-20 09:47:43 - Global AuthenticationManager configured with UserDetailsService bean with name accountService%PARSER_ERROR[ns]2025-02-20 09:47:43 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.%PARSER_ERROR[ns]2025-02-20 09:47:43 - H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'%PARSER_ERROR[ns]2025-02-20 09:47:44 - Tomcat started on port 8080 (http) with context path '/'%PARSER_ERROR[ns]2025-02-20 09:47:44 - Started HiberApplication in 7.874 seconds (process running for 8.592)%PARSER_ERROR[ns]2025-02-20 09:48:09 - Initializing Spring DispatcherServlet 'dispatcherServlet'%PARSER_ERROR[ns]2025-02-20 09:48:09 - Initializing Servlet 'dispatcherServlet'%PARSER_ERROR[ns]2025-02-20 09:48:09 - Completed initialization in 9 ms%PARSER_ERROR[ns]2025-02-20 09:48:09 - Init duration for springdoc-openapi is: 333 ms%PARSER_ERROR[ns]2025-02-20 09:59:16 - Commencing graceful shutdown. Waiting for active requests to complete%PARSER_ERROR[ns]2025-02-20 09:59:16 - Graceful shutdown complete%PARSER_ERROR[ns]2025-02-20 09:59:16 - Closing JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 09:59:16 - HikariPool-1 - Shutdown initiated...%PARSER_ERROR[ns]2025-02-20 09:59:16 - HikariPool-1 - Shutdown completed.%PARSER_ERROR[ns]2025-02-20 09:59:19 - Starting HiberApplication using Java 17.0.12 with PID 60097 (/Users/ayan/Documents/hiber/target/classes started by ayan in /Users/ayan/Documents/hiber)%PARSER_ERROR[ns]2025-02-20 09:59:19 - Running with Spring Boot v3.4.2, Spring v6.2.2%PARSER_ERROR[ns]2025-02-20 09:59:19 - No active profile set, falling back to 1 default profile: "default"%PARSER_ERROR[ns]2025-02-20 09:59:20 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.%PARSER_ERROR[ns]2025-02-20 09:59:20 - Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.%PARSER_ERROR[ns]2025-02-20 09:59:21 - Tomcat initialized with port 8080 (http)%PARSER_ERROR[ns]2025-02-20 09:59:21 - Starting service [Tomcat]%PARSER_ERROR[ns]2025-02-20 09:59:21 - Starting Servlet engine: [Apache Tomcat/10.1.34]%PARSER_ERROR[ns]2025-02-20 09:59:21 - Initializing Spring embedded WebApplicationContext%PARSER_ERROR[ns]2025-02-20 09:59:21 - Root WebApplicationContext: initialization completed in 2648 ms%PARSER_ERROR[ns]2025-02-20 09:59:22 - HHH000204: Processing PersistenceUnitInfo [name: default]%PARSER_ERROR[ns]2025-02-20 09:59:22 - HHH000412: Hibernate ORM core version 6.6.5.Final%PARSER_ERROR[ns]2025-02-20 09:59:22 - HHH000026: Second-level cache disabled%PARSER_ERROR[ns]2025-02-20 09:59:22 - No LoadTimeWeaver setup: ignoring JPA class transformer%PARSER_ERROR[ns]2025-02-20 09:59:22 - HikariPool-1 - Starting...%PARSER_ERROR[ns]2025-02-20 09:59:22 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/blogdb user=ADMIN%PARSER_ERROR[ns]2025-02-20 09:59:22 - HikariPool-1 - Start completed.%PARSER_ERROR[ns]2025-02-20 09:59:22 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)%PARSER_ERROR[ns]2025-02-20 09:59:22 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown%PARSER_ERROR[ns]2025-02-20 09:59:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)%PARSER_ERROR[ns]2025-02-20 09:59:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 09:59:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning%PARSER_ERROR[ns]2025-02-20 09:59:24 - Global AuthenticationManager configured with UserDetailsService bean with name accountService%PARSER_ERROR[ns]2025-02-20 09:59:25 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.%PARSER_ERROR[ns]2025-02-20 09:59:25 - H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'%PARSER_ERROR[ns]2025-02-20 09:59:25 - Tomcat started on port 8080 (http) with context path '/'%PARSER_ERROR[ns]2025-02-20 09:59:25 - Started HiberApplication in 7.359 seconds (process running for 8.153)%PARSER_ERROR[ns]2025-02-20 09:59:38 - Initializing Spring DispatcherServlet 'dispatcherServlet'%PARSER_ERROR[ns]2025-02-20 09:59:38 - Initializing Servlet 'dispatcherServlet'%PARSER_ERROR[ns]2025-02-20 09:59:38 - Completed initialization in 6 ms%PARSER_ERROR[ns]2025-02-20 09:59:39 - Init duration for springdoc-openapi is: 480 ms%PARSER_ERROR[ns]2025-02-20 10:20:18 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m12s818ms).%PARSER_ERROR[ns]2025-02-20 10:22:16 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m58s391ms).%PARSER_ERROR[ns]2025-02-20 10:53:53 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m6s986ms).%PARSER_ERROR[ns]2025-02-20 11:01:27 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m3s409ms).%PARSER_ERROR[ns]2025-02-20 11:04:09 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m41s976ms).%PARSER_ERROR[ns]2025-02-20 11:23:25 - Commencing graceful shutdown. Waiting for active requests to complete%PARSER_ERROR[ns]2025-02-20 11:23:25 - Graceful shutdown complete%PARSER_ERROR[ns]2025-02-20 11:23:25 - Closing JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 11:23:25 - HikariPool-1 - Shutdown initiated...%PARSER_ERROR[ns]2025-02-20 11:23:25 - HikariPool-1 - Shutdown completed.%PARSER_ERROR[ns]2025-02-20 11:23:27 - Starting HiberApplication using Java 17.0.12 with PID 66439 (/Users/ayan/Documents/hiber/target/classes started by ayan in /Users/ayan/Documents/hiber)%PARSER_ERROR[ns]2025-02-20 11:23:27 - Running with Spring Boot v3.4.2, Spring v6.2.2%PARSER_ERROR[ns]2025-02-20 11:23:27 - No active profile set, falling back to 1 default profile: "default"%PARSER_ERROR[ns]2025-02-20 11:23:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.%PARSER_ERROR[ns]2025-02-20 11:23:29 - Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.%PARSER_ERROR[ns]2025-02-20 11:23:30 - Tomcat initialized with port 8080 (http)%PARSER_ERROR[ns]2025-02-20 11:23:30 - Starting service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:23:30 - Starting Servlet engine: [Apache Tomcat/10.1.34]%PARSER_ERROR[ns]2025-02-20 11:23:30 - Initializing Spring embedded WebApplicationContext%PARSER_ERROR[ns]2025-02-20 11:23:30 - Root WebApplicationContext: initialization completed in 2644 ms%PARSER_ERROR[ns]2025-02-20 11:23:30 - HHH000204: Processing PersistenceUnitInfo [name: default]%PARSER_ERROR[ns]2025-02-20 11:23:31 - HHH000412: Hibernate ORM core version 6.6.5.Final%PARSER_ERROR[ns]2025-02-20 11:23:31 - HHH000026: Second-level cache disabled%PARSER_ERROR[ns]2025-02-20 11:23:31 - No LoadTimeWeaver setup: ignoring JPA class transformer%PARSER_ERROR[ns]2025-02-20 11:23:31 - HikariPool-1 - Starting...%PARSER_ERROR[ns]2025-02-20 11:23:31 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/blogdb user=ADMIN%PARSER_ERROR[ns]2025-02-20 11:23:31 - HikariPool-1 - Start completed.%PARSER_ERROR[ns]2025-02-20 11:23:31 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)%PARSER_ERROR[ns]2025-02-20 11:23:31 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown%PARSER_ERROR[ns]2025-02-20 11:23:31 - Failed to initialize JPA EntityManagerFactory: Property 'JavaLearning.hiber.models.BankAccount.transaction' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'%PARSER_ERROR[ns]2025-02-20 11:23:31 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'JavaLearning.hiber.models.BankAccount.transaction' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'%PARSER_ERROR[ns]2025-02-20 11:23:31 - HikariPool-1 - Shutdown initiated...%PARSER_ERROR[ns]2025-02-20 11:23:31 - HikariPool-1 - Shutdown completed.%PARSER_ERROR[ns]2025-02-20 11:23:31 - Stopping service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:23:31 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.%PARSER_ERROR[ns]2025-02-20 11:23:31 - Application run failed%PARSER_ERROR[ns]org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'JavaLearning.hiber.models.BankAccount.transaction' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at JavaLearning.hiber.HiberApplication.main(HiberApplication.java:22)
+Caused by: org.hibernate.AnnotationException: Property 'JavaLearning.hiber.models.BankAccount.transaction' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1121)
+	at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:1013)
+	at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:855)
+	at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:848)
+	at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:284)
+	at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:897)
+	at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:811)
+	at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:732)
+	at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:1088)
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:419)
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:251)
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:401)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:257)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:281)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 15 common frames omitted
+2025-02-20 11:23:43 - Starting HiberApplication using Java 17.0.12 with PID 66474 (/Users/ayan/Documents/hiber/target/classes started by ayan in /Users/ayan/Documents/hiber)%PARSER_ERROR[ns]2025-02-20 11:23:43 - Running with Spring Boot v3.4.2, Spring v6.2.2%PARSER_ERROR[ns]2025-02-20 11:23:43 - No active profile set, falling back to 1 default profile: "default"%PARSER_ERROR[ns]2025-02-20 11:23:45 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.%PARSER_ERROR[ns]2025-02-20 11:23:45 - Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.%PARSER_ERROR[ns]2025-02-20 11:23:46 - Tomcat initialized with port 8080 (http)%PARSER_ERROR[ns]2025-02-20 11:23:46 - Starting service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:23:46 - Starting Servlet engine: [Apache Tomcat/10.1.34]%PARSER_ERROR[ns]2025-02-20 11:23:46 - Initializing Spring embedded WebApplicationContext%PARSER_ERROR[ns]2025-02-20 11:23:46 - Root WebApplicationContext: initialization completed in 2486 ms%PARSER_ERROR[ns]2025-02-20 11:23:46 - HHH000204: Processing PersistenceUnitInfo [name: default]%PARSER_ERROR[ns]2025-02-20 11:23:46 - HHH000412: Hibernate ORM core version 6.6.5.Final%PARSER_ERROR[ns]2025-02-20 11:23:46 - HHH000026: Second-level cache disabled%PARSER_ERROR[ns]2025-02-20 11:23:46 - No LoadTimeWeaver setup: ignoring JPA class transformer%PARSER_ERROR[ns]2025-02-20 11:23:46 - HikariPool-1 - Starting...%PARSER_ERROR[ns]2025-02-20 11:23:46 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/blogdb user=ADMIN%PARSER_ERROR[ns]2025-02-20 11:23:46 - HikariPool-1 - Start completed.%PARSER_ERROR[ns]2025-02-20 11:23:46 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)%PARSER_ERROR[ns]2025-02-20 11:23:46 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown%PARSER_ERROR[ns]2025-02-20 11:23:47 - Failed to initialize JPA EntityManagerFactory: Property 'JavaLearning.hiber.models.BankAccount.transaction' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'%PARSER_ERROR[ns]2025-02-20 11:23:47 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'JavaLearning.hiber.models.BankAccount.transaction' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'%PARSER_ERROR[ns]2025-02-20 11:23:47 - HikariPool-1 - Shutdown initiated...%PARSER_ERROR[ns]2025-02-20 11:23:47 - HikariPool-1 - Shutdown completed.%PARSER_ERROR[ns]2025-02-20 11:23:47 - Stopping service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:23:47 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.%PARSER_ERROR[ns]2025-02-20 11:23:47 - Application run failed%PARSER_ERROR[ns]org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'JavaLearning.hiber.models.BankAccount.transaction' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at JavaLearning.hiber.HiberApplication.main(HiberApplication.java:22)
+Caused by: org.hibernate.AnnotationException: Property 'JavaLearning.hiber.models.BankAccount.transaction' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1121)
+	at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:1013)
+	at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:855)
+	at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:848)
+	at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:284)
+	at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:897)
+	at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:811)
+	at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:732)
+	at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:1088)
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:419)
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:251)
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:401)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:257)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:281)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 15 common frames omitted
+2025-02-20 11:25:39 - Starting HiberApplication using Java 17.0.12 with PID 66706 (/Users/ayan/Documents/hiber/target/classes started by ayan in /Users/ayan/Documents/hiber)%PARSER_ERROR[ns]2025-02-20 11:25:39 - Running with Spring Boot v3.4.2, Spring v6.2.2%PARSER_ERROR[ns]2025-02-20 11:25:39 - No active profile set, falling back to 1 default profile: "default"%PARSER_ERROR[ns]2025-02-20 11:25:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.%PARSER_ERROR[ns]2025-02-20 11:25:40 - Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.%PARSER_ERROR[ns]2025-02-20 11:25:41 - Tomcat initialized with port 8080 (http)%PARSER_ERROR[ns]2025-02-20 11:25:41 - Starting service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:25:41 - Starting Servlet engine: [Apache Tomcat/10.1.34]%PARSER_ERROR[ns]2025-02-20 11:25:41 - Initializing Spring embedded WebApplicationContext%PARSER_ERROR[ns]2025-02-20 11:25:41 - Root WebApplicationContext: initialization completed in 2565 ms%PARSER_ERROR[ns]2025-02-20 11:25:42 - HHH000204: Processing PersistenceUnitInfo [name: default]%PARSER_ERROR[ns]2025-02-20 11:25:42 - HHH000412: Hibernate ORM core version 6.6.5.Final%PARSER_ERROR[ns]2025-02-20 11:25:42 - HHH000026: Second-level cache disabled%PARSER_ERROR[ns]2025-02-20 11:25:42 - No LoadTimeWeaver setup: ignoring JPA class transformer%PARSER_ERROR[ns]2025-02-20 11:25:42 - HikariPool-1 - Starting...%PARSER_ERROR[ns]2025-02-20 11:25:42 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/blogdb user=ADMIN%PARSER_ERROR[ns]2025-02-20 11:25:42 - HikariPool-1 - Start completed.%PARSER_ERROR[ns]2025-02-20 11:25:42 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)%PARSER_ERROR[ns]2025-02-20 11:25:42 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown%PARSER_ERROR[ns]2025-02-20 11:25:43 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)%PARSER_ERROR[ns]2025-02-20 11:25:43 - Initialized JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 11:25:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning%PARSER_ERROR[ns]2025-02-20 11:25:44 - Global AuthenticationManager configured with UserDetailsService bean with name accountService%PARSER_ERROR[ns]2025-02-20 11:25:45 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.%PARSER_ERROR[ns]2025-02-20 11:25:45 - H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/blogdb'%PARSER_ERROR[ns]2025-02-20 11:25:45 - Tomcat started on port 8080 (http) with context path '/'%PARSER_ERROR[ns]2025-02-20 11:25:45 - Started HiberApplication in 7.002 seconds (process running for 7.683)%PARSER_ERROR[ns]2025-02-20 11:26:01 - Initializing Spring DispatcherServlet 'dispatcherServlet'%PARSER_ERROR[ns]2025-02-20 11:26:01 - Initializing Servlet 'dispatcherServlet'%PARSER_ERROR[ns]2025-02-20 11:26:01 - Completed initialization in 17 ms%PARSER_ERROR[ns]2025-02-20 11:51:04 - Commencing graceful shutdown. Waiting for active requests to complete%PARSER_ERROR[ns]2025-02-20 11:51:04 - Graceful shutdown complete%PARSER_ERROR[ns]2025-02-20 11:51:04 - Closing JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 11:51:04 - HikariPool-1 - Shutdown initiated...%PARSER_ERROR[ns]2025-02-20 11:51:04 - HikariPool-1 - Shutdown completed.%PARSER_ERROR[ns]2025-02-20 11:51:07 - Starting HiberApplication using Java 17.0.12 with PID 75494 (/Users/ayan/Documents/hiber/target/classes started by ayan in /Users/ayan/Documents/hiber)%PARSER_ERROR[ns]2025-02-20 11:51:07 - Running with Spring Boot v3.4.2, Spring v6.2.2%PARSER_ERROR[ns]2025-02-20 11:51:07 - No active profile set, falling back to 1 default profile: "default"%PARSER_ERROR[ns]2025-02-20 11:51:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.%PARSER_ERROR[ns]2025-02-20 11:51:08 - Finished Spring Data repository scanning in 111 ms. Found 3 JPA repository interfaces.%PARSER_ERROR[ns]2025-02-20 11:51:09 - Tomcat initialized with port 8080 (http)%PARSER_ERROR[ns]2025-02-20 11:51:09 - Starting service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:51:09 - Starting Servlet engine: [Apache Tomcat/10.1.34]%PARSER_ERROR[ns]2025-02-20 11:51:09 - Initializing Spring embedded WebApplicationContext%PARSER_ERROR[ns]2025-02-20 11:51:09 - Root WebApplicationContext: initialization completed in 2508 ms%PARSER_ERROR[ns]2025-02-20 11:51:10 - HHH000204: Processing PersistenceUnitInfo [name: default]%PARSER_ERROR[ns]2025-02-20 11:51:10 - HHH000412: Hibernate ORM core version 6.6.5.Final%PARSER_ERROR[ns]2025-02-20 11:51:10 - HHH000026: Second-level cache disabled%PARSER_ERROR[ns]2025-02-20 11:51:10 - No LoadTimeWeaver setup: ignoring JPA class transformer%PARSER_ERROR[ns]2025-02-20 11:51:10 - HikariPool-1 - Starting...%PARSER_ERROR[ns]2025-02-20 11:51:10 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/blogdb user=ADMIN%PARSER_ERROR[ns]2025-02-20 11:51:10 - HikariPool-1 - Start completed.%PARSER_ERROR[ns]2025-02-20 11:51:10 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)%PARSER_ERROR[ns]2025-02-20 11:51:10 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown%PARSER_ERROR[ns]2025-02-20 11:51:11 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)%PARSER_ERROR[ns]2025-02-20 11:51:11 - GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists transaction add constraint FKm56ljtl5gvksqa5hosde27j6q foreign key (account_number) references bank_account (account_number)" via JDBC [Constraint "PRIMARY KEY | UNIQUE (ACCOUNT_NUMBER)" not found;]%PARSER_ERROR[ns]org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists transaction add constraint FKm56ljtl5gvksqa5hosde27j6q foreign key (account_number) references bank_account (account_number)" via JDBC [Constraint "PRIMARY KEY | UNIQUE (ACCOUNT_NUMBER)" not found;]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createForeignKeys(SchemaCreatorImpl.java:305)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:251)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:172)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:142)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:118)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at JavaLearning.hiber.HiberApplication.main(HiberApplication.java:22)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Constraint "PRIMARY KEY | UNIQUE (ACCOUNT_NUMBER)" not found; SQL statement:
+alter table if exists transaction add constraint FKm56ljtl5gvksqa5hosde27j6q foreign key (account_number) references bank_account (account_number) [90057-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:644)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:259)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:74)
+	at org.h2.command.ddl.AlterTable.update(AlterTable.java:46)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:139)
+	at org.h2.command.Command.executeUpdate(Command.java:304)
+	at org.h2.command.Command.executeUpdate(Command.java:248)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:262)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 38 common frames omitted
+2025-02-20 11:51:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 11:51:13 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning%PARSER_ERROR[ns]2025-02-20 11:51:13 - Global AuthenticationManager configured with UserDetailsService bean with name accountService%PARSER_ERROR[ns]2025-02-20 11:51:13 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.%PARSER_ERROR[ns]2025-02-20 11:51:14 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionsRepo' defined in JavaLearning.hiber.repository.TransactionsRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: interface org.hibernate.Transaction%PARSER_ERROR[ns]2025-02-20 11:51:14 - Closing JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 11:51:14 - HikariPool-1 - Shutdown initiated...%PARSER_ERROR[ns]2025-02-20 11:51:14 - HikariPool-1 - Shutdown completed.%PARSER_ERROR[ns]2025-02-20 11:51:14 - Stopping service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:51:14 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.%PARSER_ERROR[ns]2025-02-20 11:51:14 - Application run failed%PARSER_ERROR[ns]org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionsRepo' defined in JavaLearning.hiber.repository.TransactionsRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: interface org.hibernate.Transaction
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at JavaLearning.hiber.HiberApplication.main(HiberApplication.java:22)
+Caused by: java.lang.IllegalArgumentException: Not a managed type: interface org.hibernate.Transaction
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:223)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:470)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:100)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:251)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:215)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:198)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:386)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$4(RepositoryFactoryBeanSupport.java:350)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135)
+	at org.springframework.data.util.Lazy.get(Lazy.java:113)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:356)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 18 common frames omitted
+2025-02-20 11:52:07 - Starting HiberApplication using Java 17.0.12 with PID 75667 (/Users/ayan/Documents/hiber/target/classes started by ayan in /Users/ayan/Documents/hiber)%PARSER_ERROR[ns]2025-02-20 11:52:07 - Running with Spring Boot v3.4.2, Spring v6.2.2%PARSER_ERROR[ns]2025-02-20 11:52:07 - No active profile set, falling back to 1 default profile: "default"%PARSER_ERROR[ns]2025-02-20 11:52:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.%PARSER_ERROR[ns]2025-02-20 11:52:09 - Finished Spring Data repository scanning in 86 ms. Found 3 JPA repository interfaces.%PARSER_ERROR[ns]2025-02-20 11:52:10 - Tomcat initialized with port 8080 (http)%PARSER_ERROR[ns]2025-02-20 11:52:10 - Starting service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:52:10 - Starting Servlet engine: [Apache Tomcat/10.1.34]%PARSER_ERROR[ns]2025-02-20 11:52:10 - Initializing Spring embedded WebApplicationContext%PARSER_ERROR[ns]2025-02-20 11:52:10 - Root WebApplicationContext: initialization completed in 2479 ms%PARSER_ERROR[ns]2025-02-20 11:52:10 - HHH000204: Processing PersistenceUnitInfo [name: default]%PARSER_ERROR[ns]2025-02-20 11:52:10 - HHH000412: Hibernate ORM core version 6.6.5.Final%PARSER_ERROR[ns]2025-02-20 11:52:10 - HHH000026: Second-level cache disabled%PARSER_ERROR[ns]2025-02-20 11:52:10 - No LoadTimeWeaver setup: ignoring JPA class transformer%PARSER_ERROR[ns]2025-02-20 11:52:10 - HikariPool-1 - Starting...%PARSER_ERROR[ns]2025-02-20 11:52:11 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/blogdb user=ADMIN%PARSER_ERROR[ns]2025-02-20 11:52:11 - HikariPool-1 - Start completed.%PARSER_ERROR[ns]2025-02-20 11:52:11 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)%PARSER_ERROR[ns]2025-02-20 11:52:11 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown%PARSER_ERROR[ns]2025-02-20 11:52:12 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)%PARSER_ERROR[ns]2025-02-20 11:52:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 11:52:13 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning%PARSER_ERROR[ns]2025-02-20 11:52:13 - Global AuthenticationManager configured with UserDetailsService bean with name accountService%PARSER_ERROR[ns]2025-02-20 11:52:14 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.%PARSER_ERROR[ns]2025-02-20 11:52:14 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionsRepo' defined in JavaLearning.hiber.repository.TransactionsRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: interface org.hibernate.Transaction%PARSER_ERROR[ns]2025-02-20 11:52:14 - Closing JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 11:52:14 - HikariPool-1 - Shutdown initiated...%PARSER_ERROR[ns]2025-02-20 11:52:14 - HikariPool-1 - Shutdown completed.%PARSER_ERROR[ns]2025-02-20 11:52:14 - Stopping service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:52:14 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.%PARSER_ERROR[ns]2025-02-20 11:52:14 - Application run failed%PARSER_ERROR[ns]org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionsRepo' defined in JavaLearning.hiber.repository.TransactionsRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: interface org.hibernate.Transaction
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at JavaLearning.hiber.HiberApplication.main(HiberApplication.java:22)
+Caused by: java.lang.IllegalArgumentException: Not a managed type: interface org.hibernate.Transaction
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:223)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:470)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:100)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:251)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:215)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:198)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:386)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$4(RepositoryFactoryBeanSupport.java:350)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135)
+	at org.springframework.data.util.Lazy.get(Lazy.java:113)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:356)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 18 common frames omitted
+2025-02-20 11:53:45 - Starting HiberApplication using Java 17.0.12 with PID 75914 (/Users/ayan/Documents/hiber/target/classes started by ayan in /Users/ayan/Documents/hiber)%PARSER_ERROR[ns]2025-02-20 11:53:45 - Running with Spring Boot v3.4.2, Spring v6.2.2%PARSER_ERROR[ns]2025-02-20 11:53:45 - No active profile set, falling back to 1 default profile: "default"%PARSER_ERROR[ns]2025-02-20 11:53:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.%PARSER_ERROR[ns]2025-02-20 11:53:47 - Finished Spring Data repository scanning in 87 ms. Found 3 JPA repository interfaces.%PARSER_ERROR[ns]2025-02-20 11:53:48 - Tomcat initialized with port 8080 (http)%PARSER_ERROR[ns]2025-02-20 11:53:48 - Starting service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:53:48 - Starting Servlet engine: [Apache Tomcat/10.1.34]%PARSER_ERROR[ns]2025-02-20 11:53:48 - Initializing Spring embedded WebApplicationContext%PARSER_ERROR[ns]2025-02-20 11:53:48 - Root WebApplicationContext: initialization completed in 2517 ms%PARSER_ERROR[ns]2025-02-20 11:53:48 - HHH000204: Processing PersistenceUnitInfo [name: default]%PARSER_ERROR[ns]2025-02-20 11:53:48 - HHH000412: Hibernate ORM core version 6.6.5.Final%PARSER_ERROR[ns]2025-02-20 11:53:48 - HHH000026: Second-level cache disabled%PARSER_ERROR[ns]2025-02-20 11:53:48 - No LoadTimeWeaver setup: ignoring JPA class transformer%PARSER_ERROR[ns]2025-02-20 11:53:48 - HikariPool-1 - Starting...%PARSER_ERROR[ns]2025-02-20 11:53:49 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/blogdb user=ADMIN%PARSER_ERROR[ns]2025-02-20 11:53:49 - HikariPool-1 - Start completed.%PARSER_ERROR[ns]2025-02-20 11:53:49 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)%PARSER_ERROR[ns]2025-02-20 11:53:49 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown%PARSER_ERROR[ns]2025-02-20 11:53:49 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)%PARSER_ERROR[ns]2025-02-20 11:53:49 - Initialized JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 11:53:51 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning%PARSER_ERROR[ns]2025-02-20 11:53:51 - Global AuthenticationManager configured with UserDetailsService bean with name accountService%PARSER_ERROR[ns]2025-02-20 11:53:51 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.%PARSER_ERROR[ns]2025-02-20 11:53:52 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionsRepo' defined in JavaLearning.hiber.repository.TransactionsRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: interface org.hibernate.Transaction%PARSER_ERROR[ns]2025-02-20 11:53:52 - Closing JPA EntityManagerFactory for persistence unit 'default'%PARSER_ERROR[ns]2025-02-20 11:53:52 - HikariPool-1 - Shutdown initiated...%PARSER_ERROR[ns]2025-02-20 11:53:52 - HikariPool-1 - Shutdown completed.%PARSER_ERROR[ns]2025-02-20 11:53:52 - Stopping service [Tomcat]%PARSER_ERROR[ns]2025-02-20 11:53:52 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.%PARSER_ERROR[ns]2025-02-20 11:53:52 - Application run failed%PARSER_ERROR[ns]org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionsRepo' defined in JavaLearning.hiber.repository.TransactionsRepo defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: interface org.hibernate.Transaction
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at JavaLearning.hiber.HiberApplication.main(HiberApplication.java:22)
+Caused by: java.lang.IllegalArgumentException: Not a managed type: interface org.hibernate.Transaction
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:223)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:470)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:100)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:251)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:215)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:198)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:386)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$4(RepositoryFactoryBeanSupport.java:350)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135)
+	at org.springframework.data.util.Lazy.get(Lazy.java:113)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:356)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 18 common frames omitted
